@@ -1,0 +1,76 @@
+
+.rideHistory{
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid grey;
+    border-width: 2;
+    padding: 25px 0px;
+    width: 100%;
+}
+
+.image{
+    padding: 0 15px;
+    width: 15%;
+}
+
+.content{
+    width: 60%;
+}
+
+.fare-img{
+    width: 25%;
+    padding: 0 10px;
+}
+
+.cab-img{
+    width: 55px;
+    height: 55px;
+    position: relative;
+    top: -1px;
+}    
+    
+.driver{
+    width: 38px;
+    height: 38px;
+    position: relative;
+    top: -1px;
+}
+
+.content .date {
+font-weight: 600;
+font-size: 14px;
+}
+
+.ride-receipt {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.from.dot {
+    background-color: #54a624;
+}
+
+.to.dot {
+    background-color: #ff665a;
+}
+
+.dot {
+    display: inline-block;
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    vertical-align: top;
+    margin: 7px 0 0;
+}
+
+.pick-drop .address{
+    width: 90%;
+    font-size: 14px;
+    color: #999999;
+    display: inline-block;
+    line-height: 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-left: 5px;
+}
